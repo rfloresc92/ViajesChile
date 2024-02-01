@@ -34,5 +34,5 @@ $(document).ready(function () {
     $('#aceptar').on('click', function(){
         $('#miModal').modal('hide');
     });
-
+    
 });
