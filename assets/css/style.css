@@ -29,6 +29,10 @@ footer {
     padding-bottom: 5px !important;
 }
 
+.padcard {
+    padding-bottom: 25px !important;
+}
+
 h2 {
     font-size: 18px;
     text-align: left !important;
