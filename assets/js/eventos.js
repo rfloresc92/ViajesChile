@@ -1,4 +1,6 @@
+
 $(document).ready(function () {
+
     $("a").on('click', function (event) {
         if (this.hash !== "") {
             event.preventDefault();
@@ -24,4 +26,13 @@ $(document).ready(function () {
     $('#desid').on('click', function () {
         $('#dessec').toggle();
     });
+
+    $('#enviar').on('click', function(){
+        $('#miModal').modal('show');
+    });
+
+    $('#aceptar').on('click', function(){
+        $('#miModal').modal('hide');
+    });
+
 });

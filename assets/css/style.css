@@ -47,6 +47,10 @@ h4 {
     font-weight: 700;
 }
 
+#miModal {
+    color: #000000 !important;
+}
+
 .btn-primary{
     background-color: #2a9fa9 !important;
 }

@@ -17,21 +17,13 @@
         crossorigin="anonymous"></script>
     <link href="assets/css/style.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-    <script src="assets/js/jquery.js"></script>
-    <script>
-        var myModal = document.getElementById('myModal')
-        var myInput = document.getElementById('myInput')
-
-        myModal.addEventListener('shown.bs.modal', function () {
-            myInput.focus()
-        })
-
-    </script>
-
+    <script src="assets/js/eventos.js"></script>
 </head>
 
 <body>
+
     <!--Barra de navegacion fija-->
+
     <section id="inicio">
         <nav class="navbar navbar-dark bg-light fixed-top navbar-expand-lg">
             <div class="container">
@@ -64,7 +56,9 @@
         </nav>
     </section>
     <header>
+
         <!--Carousel Imagenes destacadas-->
+
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -92,7 +86,9 @@
     <main>
         <section id="quienessomos" class="d-none d-lg-block">
             <br>
+
             <!--Seccion ¿Quienes Somos?-->
+
             <h3>¿QUIÉNES SOMOS?</h3>
             <br>
             <hr class="container">
@@ -150,7 +146,10 @@
             </div>
         </section>
         <section id="destacados">
+
             <!--Seccion Destacados-->
+            <!--Se oculta al hacer click en DESTACADOS-->
+
             <h3 id="desid">DESTACADOS</h3>
             <br>
             <hr class="container">
@@ -196,7 +195,9 @@
             </div>
         </section>
         <section id="contacto">
+
             <!--Seccion Contactame-->
+
             <h3>CONTACTO</h3>
             <br>
             <hr class="container">
@@ -220,14 +221,36 @@
                     <textarea class="form-control" aria-label="With textarea"></textarea>
                 </div>
                 <div class="d-grid gap-2 d-md-flex">
-                    <button class="btn btn-primary me-md-2" type="button">Enviar</button>
+                    <button id="enviar" class="btn btn-primary me-md-2" type="button">Enviar</button>
+
+                    <!--Seccion Modal-->
+
+                    <div class="modal" tabindex="-1" id="miModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Contactame</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Su información ha sido enviada correctamente. </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button id="aceptar" type="button" class="btn btn-primary">Aceptar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <footer>
             <section class="container d-md-flex">
+
                 <!--Redes Sociales-->
+
                 <div class="col-md-6">
                     <h2>VIAJES CHILE</h2>
                 </div>
@@ -242,27 +265,7 @@
                             class="fa-brands fa-square-facebook icon fa-2x"></i></a>
                 </div>
             </section>
-            <section>
-                <div class="modal" tabindex="-1">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">Contactame</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <p>Su información ha sido enviada correctamente. </p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-primary">Aceptar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </footer>
-
     </main>
 </body>
 
