@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+    }
+.bg-light {
+    background-color: transparent !important;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.imgcard {
+    height: 172px !important;
+}
+
+.center {
+    text-align: center !important;
+}
+
+.icon {
+    color: #FFFFFF;
+}
+
+footer {
+    padding-top: 25px !important;
+    text-align: right;
+    color: #FFFFFF !important;
+    background-color: #2a9fa9 !important;
+    padding-bottom: 25px !important;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center !important;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 18px;
+    text-align: left !important;
+    font-weight: 700;
+}
+
+.color {
+    background-color: #2a9fa9 !important;
+}
+
+.color2 {
+    background-color: #000000 !important;
+}
+
+.bordes {
+    border: none !important;
+
+}
+
+#quienessomos {
+    color: #FFFFFF !important;
+    padding-top: 25px !important;
+    background-color: #000000 !important;
+    padding-bottom: 25px !important;
+}
+
+#destacados {
+    color: #FFFFFF !important;
+    padding-top: 25px !important;
+    background-color: #000000 !important;
+    padding-bottom: 25px !important;
+}
+
+#contacto {
+    color: #FFFFFF !important;
+    padding-top: 25px !important;
+    background-color: #000000 !important;
+    padding-bottom: 25px !important;
+}
