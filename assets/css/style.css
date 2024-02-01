@@ -22,11 +22,17 @@ body {
 }
 
 footer {
-    padding-top: 25px !important;
+    padding-top: 10px !important;
     text-align: right;
     color: #FFFFFF !important;
     background-color: #2a9fa9 !important;
-    padding-bottom: 25px !important;
+    padding-bottom: 5px !important;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: left !important;
+    font-weight: 400;
 }
 
 h3 {
@@ -41,7 +47,11 @@ h4 {
     font-weight: 700;
 }
 
-.color {
+.btn-primary{
+    background-color: #2a9fa9 !important;
+}
+
+.color { 
     background-color: #2a9fa9 !important;
 }
 
