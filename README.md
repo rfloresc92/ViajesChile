@@ -1,11 +1,11 @@
 # ViajesChile
 Prueba
 ----------------------------------------------------------------
-Google Fonts Raleway 400 - 700
-Boostrap Bundle Js v5.1.3
-Boostrap v5.1.3
-Jquery jquery-3.7.1.js
-Kit FontAwesome
+- Google Fonts Raleway 400 - 700
+- Boostrap Bundle Js v5.1.3
+- Boostrap v5.1.3
+- Jquery jquery-3.7.1.js
+- Kit FontAwesome
 ----------------------------------------------------------------
 Funcionalidades Javascript/Jquery
 ----------------------------------------------------------------
