@@ -27,25 +27,25 @@ Prerrequisitos o Dependencias a Instalar:
 - Kit FontAwesome
 
 Creacion de ambiente Virtual
-#paso1 - instalar virtualenv en caso de no tenerlo
-pip install virtualenv
-#paso2 - crear ambiente virtual
-virtualenv venv (para crear el entorno virtual)
-#paso3 - activar ambiente virtual
-source ./venv/Scripts/activate
-#paso4 - instalar requirements
-pip install -r requirements.txt
+- #paso1 - instalar virtualenv en caso de no tenerlo
+  pip install virtualenv
+- #paso2 - crear ambiente virtual
+  virtualenv venv (para crear el entorno virtual)
+- #paso3 - activar ambiente virtual
+  source ./venv/Scripts/activate
+- #paso4 - instalar requirements
+  pip install -r requirements.txt
 ----------------------------------------------------------------
 Conexion a Base de datos:
 ----------------------------------------------------------------
 Crear base de datos en Postgres con los siguientes datos:
 
-  'ENGINE': 'django.db.backends.postgresql',
-  'NAME': 'resena_libross',
-  'USER': 'postgres',
-  'PASSWORD': 'Chopli92.',
-  'HOST': 'localhost',
-  'PORT': '5432',
+  -'ENGINE': 'django.db.backends.postgresql',
+  -'NAME': 'resena_libross',
+  -'USER': 'postgres',
+  -'PASSWORD': 'Chopli92.',
+  -'HOST': 'localhost',
+  -'PORT': '5432',
   
 Django creara las tablas en la base de datos de la siguiente forma:
 
